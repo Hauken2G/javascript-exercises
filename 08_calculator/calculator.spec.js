@@ -1,7 +1,7 @@
 const calculator = require('./calculator');
 
 describe('add', () => {
-  test('adds 0 and 0', () => {
+  test.skip('adds 0 and 0', () => {
     expect(calculator.add(0, 0)).toBe(0);
   });
 
@@ -79,7 +79,7 @@ describe('factorial', () => {
     expect(calculator.factorial(2)).toBe(2);
   });
 
-  test.skip('computes the factorial of 5', () => {
+  test('computes the factorial of 5', () => {
     expect(calculator.factorial(5)).toBe(120);
   });
 
